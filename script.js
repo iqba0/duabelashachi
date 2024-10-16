@@ -1,9 +1,11 @@
-let string = "",
-i = prompt('masukan jumlah baris')
-for (let i = 5; i > 0; i--) {
-    for (let j = 0; j < i; j++) {
-        string += "*";
+let umurSadam = '16'; 
+
+if(umurSadam >= 17){ //true
+    console.log('sudah bisa buat KTP')
+} 
+else if (umurSadam == 16){
+    console.log(`1 tahun lagi bisa buat KTP`)
     }
-    string += "\n";
+else { //false
+    console.log(`Belum bisa buat KTP`)
 }
-console.log(string);
